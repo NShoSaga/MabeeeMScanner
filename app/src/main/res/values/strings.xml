@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MaBeeeMScanner</string>
+    <string name="ble_not_supported">Bluetooth Low Energy not supported</string>
+    <string name="scan">Scan</string>
+    <string name="cancel">Cancel</string>
+    <string name="paired">paired</string>
+</resources>
