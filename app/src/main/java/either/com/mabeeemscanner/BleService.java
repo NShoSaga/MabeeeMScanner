@@ -136,16 +136,25 @@ public class BleService extends Service {
 
     public static final int IBEACON_MAJOR_VALUE_OFFSET = 25;
     public static final int IBEACON_MINOR_VALUE_OFFSET = IBEACON_MAJOR_VALUE_OFFSET + 2;
+    public static final int IBEACON_REMOCON_DATA_VALUE_OFFSET = 44;
+    public static final int IBEACON_REMOCON_ADDR_VALUE_OFFSET = 45;
     public static final float V_BAT_SCALE = 3.6f / 256;
     public static final int AWS_UPDATE_INTERVAL_MS = 1000;
 
-//    public static final String AWS_URL = "https://search-mbmd-sa6qxdlv3ohnzaozxvrnqfzbli.ap-northeast-1.es.amazonaws.com";
-    public static final String AWS_URL = "https://search-mbmd-sa6qxdlv3ohnzaozxvrnqfzbli.ap-northeast-1.es.amazonaws.com";
-    public static final String AWS_INDEX = "mbmb";
-    public static final String AWS_TYPE = "doc";
-//    public static final String AWS_URL = "search-mbmd-sa6qxdlv3ohnzaozxvrnqfzbli.ap-northeast-1.es.amazonaws.com";
+    public static final int MANUFACUTURER_CODE_SONY = 0;
 
-    public static final String UUID_STRING_SERVICE_MABEEE_M = "1D700000-7CB9-47B3-B889-071D28299206";
+
+    //    public static final String AWS_URL = "https://search-mbmd-sa6qxdlv3ohnzaozxvrnqfzbli.ap-northeast-1.es.amazonaws.com";
+//    public static final String AWS_URL = "https://search-mbmd-sa6qxdlv3ohnzaozxvrnqfzbli.ap-northeast-1.es.amazonaws.com";
+//    public static final String AWS_INDEX = "mbmb";
+//    public static final String AWS_TYPE = "doc";
+    public static final String AWS_URL = "https://6ywha08uf7.execute-api.ap-northeast-1.amazonaws.com/poc/v0";
+    public static final String AWS_INDEX = "mabeeem";
+    public static final String AWS_TYPE = "logs";
+    //    public static final String AWS_URL = "search-mbmd-sa6qxdlv3ohnzaozxvrnqfzbli.ap-northeast-1.es.amazonaws.com";
+
+//    public static final String UUID_STRING_SERVICE_MABEEE_M = "1D700000-7CB9-47B3-B889-071D28299206";
+    public static final String UUID_STRING_SERVICE_MABEEE_M = "0BD00000-7AF6-45F3-823C-D9D3F02DE28C";
     public static final UUID CCCD = UUID.fromString("00002902-0000-1000-8000-00805f9b34fb");
 
     public static final String PREFERENCES_NAME = "DataSave";
@@ -342,6 +351,7 @@ public class BleService extends Service {
     public void scanLeDevice(final boolean enable) {
 
         if (mBluetoothAdapter == null) {
+            getSystemService(Context.BLUETOOTH_SERVICE);
             final BluetoothManager bluetoothManager =
                     (BluetoothManager) getSystemService(Context.BLUETOOTH_SERVICE);
             mBluetoothAdapter = bluetoothManager.getAdapter();
@@ -524,12 +534,22 @@ public class BleService extends Service {
         float fVBat = V_BAT_SCALE * nVBat;
         short sTemp = (short)((baScanRecord[IBEACON_MINOR_VALUE_OFFSET] & 0xFF) << 8 | baScanRecord[IBEACON_MINOR_VALUE_OFFSET + 1] & 0xFF);
         float fTemp = (float)sTemp / 10.0f;
+        short sRemoData = (short)(baScanRecord[IBEACON_REMOCON_DATA_VALUE_OFFSET] & 0xFF);
+        short sRemoAddr = (short)(baScanRecord[IBEACON_REMOCON_ADDR_VALUE_OFFSET] & 0xFF);
         String strDeviceName = scanResult.getDevice().getName();
         String strVBat = String.format("%1$.2fV", fVBat);
         String strTemp = String.format("%1$.1f℃", fTemp);
+        String strRemoData = Integer.toString(sRemoData);
+        String strRemoAddr = Integer.toString(sRemoAddr);
 
-        SetNotification(m_StartId, lWen, strDeviceName + " " + strVBat + " " + strTemp);
+        SetNotification(m_StartId, lWen, strDeviceName + " " + strVBat + " " + strTemp + " " + strRemoData + " " + strRemoAddr);
+        Log.i(TAG, "ScanRecord:" + scanResult.getScanRecord());
 
+        int nBuf;
+        for(int i=0; i<baScanRecord.length;i++) {
+            nBuf = (short)baScanRecord[i] & 0xFF;
+            Log.i(TAG, Integer.toString(i) + " " + Integer.toHexString(nBuf));
+        }
 
     }
 
@@ -608,10 +628,14 @@ public class BleService extends Service {
         String TimeAsISO = df.format(devScanDate.get(strDeviceAddress));
         ScanResult scanResult = devScanRecord.get(strDeviceAddress);
         byte[] baScanRecord = scanResult.getScanRecord().getBytes();
+        short sRemoData = (short)(baScanRecord[IBEACON_REMOCON_DATA_VALUE_OFFSET] & 0xFF);
+        short sRemoAddr = (short)(baScanRecord[IBEACON_REMOCON_ADDR_VALUE_OFFSET] & 0xFF);
         int nVBat = baScanRecord[IBEACON_MAJOR_VALUE_OFFSET + 1] & 0xFF;
         float fVBat = V_BAT_SCALE * nVBat;
         short sTemp = (short)((baScanRecord[IBEACON_MINOR_VALUE_OFFSET] & 0xFF) << 8 | baScanRecord[IBEACON_MINOR_VALUE_OFFSET + 1] & 0xFF);
         float fTemp = (float)sTemp / 10.0f;
+        String strRemoData = Integer.toString(sRemoData);
+        String strRemoAddr = Integer.toString(sRemoAddr);
 
         try {
             JsonObj.put("timestamp", TimeAsISO);
@@ -621,6 +645,13 @@ public class BleService extends Service {
             JsonObj.put("rssi_values", devRssiValues.get(strDeviceAddress).intValue());
             JsonObj.put("battery_voltage", String.format("%1$.2f", fVBat));
             JsonObj.put("temp", String.format("%1$.1f", fTemp));
+            JsonObj.put("manufacturer_code", String.format("%d", MANUFACUTURER_CODE_SONY));
+            JSONArray  JsonArr = new JSONArray();
+            JsonArr.put(strRemoData);
+            JsonArr.put(strRemoAddr);
+            JsonObj.put("button_code", JsonArr);
+            JsonObj.put("Push_time", String.format("%d", 0));
+
 
 //            String strBuf = JsonObj.toString(JsonObj.length());
 //            Log.i(TAG, ":" + JsonObj.toString(JsonObj.length()));
@@ -652,7 +683,8 @@ public class BleService extends Service {
                     httpPost.setHeader("Accept", "application/json");
                     httpPost.setHeader("Content-Type", "application/json");
                     HttpResponse response = client.execute(httpPost);
-                    Log.i(TAG, "json:" + fJsonObj.toString());
+                    Log.i(TAG, "json:" + fJsonObj.toString(4));
+//                    Log.i(TAG, "json:" + fJsonObj);
                     Log.i(TAG, "response:" + response.getStatusLine().toString());
                 } catch(Exception e) {
                     e.printStackTrace();

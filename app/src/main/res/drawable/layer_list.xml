@@ -1,14 +1,41 @@
-<?xml version ="1.0" encoding ="utf-8"?><!--  Learn More about how to use App Actions: https://developer.android.com/guide/actions/index.html -->
-<actions>
-    <!--    Example Action -->
-    <!--    <action intentName="Intent name (actions.intent.*)"> -->
-    <!--        <action-display -->
-    <!--            icon="@mipmap/..." -->
-    <!--            labelTemplate="@array/..." /> -->
-    <!--        <fulfillment urlTemplate="Action content URI or URL"> -->
-    <!--            <parameter-mapping -->
-    <!--                intentParameter="Parameter name in Intent URI" -->
-    <!--                urlParameter="Parameter name in URL" /> -->
-    <!--        </fulfillment> -->
-    <!--    </action> -->
-</actions>
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 角丸付きの黒いグラデーションの背景(Shapeで書いてみた) -->
+    <item
+        android:drawable="@drawable/remo_base"
+        android:top="10dp"
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"/>
+
+    <item
+        android:drawable="@drawable/remo_crear"
+        android:top="10dp"
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"/>
+
+    <!-- 音声切り替えボタン -->
+    <item
+        android:drawable="@drawable/remo_b0"
+        android:top="10dp"
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"/>
+
+    <item
+        android:drawable="@drawable/remo_b1"
+        android:top="10dp"
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"/>
+
+    <item
+        android:drawable="@drawable/remo_b2"
+        android:top="10dp"
+        android:bottom="10dp"
+        android:left="10dp"
+        android:right="10dp"/>
+
+</layer-list>

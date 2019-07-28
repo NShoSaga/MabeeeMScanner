@@ -4,4 +4,5 @@
     <string name="scan">Scan</string>
     <string name="cancel">Cancel</string>
     <string name="paired">paired</string>
+    <string name="title_activity_main">MaBeeeMRemo</string>
 </resources>

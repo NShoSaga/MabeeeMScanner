@@ -101,5 +101,22 @@
         android:layout_toRightOf="@+id/address"
         android:textSize="18dp" />
 
+    <TextView
+        android:id="@+id/remdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/name"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/remaddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/remdata"
+        android:textSize="18dp" />
 
 </RelativeLayout>

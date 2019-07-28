@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
      Copyright (C) 2013 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -38,6 +37,7 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- android:actionBarStyleからandroid:を省く -->
     </style>
+
     <color name="black">#000000</color>
     <color name="whitegrey">#FFF2F2F2</color>
     <!-- AlertDialog text color fix thanks to Shawn Castrianni, see: http://groups.google.com/group/android-developers/browse_thread/thread/f0b34621d3a70c4b -->
@@ -48,6 +48,7 @@
     </style>
 
     <drawable name="transparameter">#7f000000</drawable>
+
     <style name="Theme.TranslucentBackground" parent="AppTheme">
         <item name="android:windowBackground">@drawable/transparameter</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
@@ -55,5 +56,14 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowFullscreen">true</item>
     </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>

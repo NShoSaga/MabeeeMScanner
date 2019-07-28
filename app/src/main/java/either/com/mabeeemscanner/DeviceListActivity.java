@@ -523,6 +523,8 @@ public class DeviceListActivity extends Activity {
             final TextView temp = ((TextView) vg.findViewById(R.id.temp));
             final TextView tvpaired = (TextView) vg.findViewById(R.id.paired);
             final TextView tvrssi = (TextView) vg.findViewById(R.id.rssi);
+            final TextView tvremdata = (TextView) vg.findViewById(R.id.remdata);
+            final TextView tvremaddr = (TextView) vg.findViewById(R.id.remaddr);
 
             tvrssi.setVisibility(View.VISIBLE);
             byte rssival = (byte) mBleService.GetRssiValues().get(device.getAddress()).intValue();
@@ -549,6 +551,12 @@ public class DeviceListActivity extends Activity {
             float fTemp = (float)sTemp / 10.0f;
 
             temp.setText(String.format("%1$.1f℃", fTemp));
+
+            short sRemData = (short)(baScanRecord[BleService.IBEACON_REMOCON_DATA_VALUE_OFFSET] & 0xFF);
+            short sRemAddr = (short)(baScanRecord[BleService.IBEACON_REMOCON_ADDR_VALUE_OFFSET] & 0xFF);
+
+            tvremdata.setText(String.format("%02d", sRemData));
+            tvremaddr.setText(String.format("%02d", sRemAddr));
 
  //           tvname.setText(device.getName());
             tvname.setText(scanResult.getDevice().getName());
