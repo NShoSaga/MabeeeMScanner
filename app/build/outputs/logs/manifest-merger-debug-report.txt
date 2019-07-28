@@ -1,0 +1,217 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:2:1-42:12
+MERGED from [com.android.support:design:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5193e7ce9918af16a105af873693d67e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/726af0588a3a4e9813c1232bcfcdabd4/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c952252af4600c86a0f06c8b41b7ab51/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/0cedab184cc2b7e478165a93048e9733/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f86a951084053aaf846b3b6a42d70961/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/0242324be43c36787f73a263660204d5/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4f829a9eb5c79eda9a858353299312f2/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/f3e744fce4c3feb86245a7a840c36315/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/db6cd8f0c40c6ebf08d386df365442e6/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/5979018e0259a1b2f286b234416a6fa1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/386fe360bdb62d375fb7698741f09283/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d8a1f81bbd40a2c52c18efd92f529593/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8e8d6ca62f2215a24fe52b2327dd5f48/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2411923879384b1056f55e660c574845/AndroidManifest.xml:17:1-30:12
+INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:2:1-42:12
+	package
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:3:5-40
+		INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:2:1-42:12
+		INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:5:5-68
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:6:5-74
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:6:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:10:5-68
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:10:22-65
+uses-permission#android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:11:5-95
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:11:22-92
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:12:22-78
+application
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:14:5-40:19
+MERGED from [com.android.support:design:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5193e7ce9918af16a105af873693d67e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5193e7ce9918af16a105af873693d67e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/726af0588a3a4e9813c1232bcfcdabd4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/726af0588a3a4e9813c1232bcfcdabd4/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c952252af4600c86a0f06c8b41b7ab51/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c952252af4600c86a0f06c8b41b7ab51/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/0cedab184cc2b7e478165a93048e9733/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/0cedab184cc2b7e478165a93048e9733/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f86a951084053aaf846b3b6a42d70961/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f86a951084053aaf846b3b6a42d70961/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/0242324be43c36787f73a263660204d5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/0242324be43c36787f73a263660204d5/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4f829a9eb5c79eda9a858353299312f2/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4f829a9eb5c79eda9a858353299312f2/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/f3e744fce4c3feb86245a7a840c36315/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/f3e744fce4c3feb86245a7a840c36315/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/db6cd8f0c40c6ebf08d386df365442e6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/db6cd8f0c40c6ebf08d386df365442e6/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/5979018e0259a1b2f286b234416a6fa1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/5979018e0259a1b2f286b234416a6fa1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/386fe360bdb62d375fb7698741f09283/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/386fe360bdb62d375fb7698741f09283/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d8a1f81bbd40a2c52c18efd92f529593/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d8a1f81bbd40a2c52c18efd92f529593/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8e8d6ca62f2215a24fe52b2327dd5f48/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8e8d6ca62f2215a24fe52b2327dd5f48/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2411923879384b1056f55e660c574845/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2411923879384b1056f55e660c574845/AndroidManifest.xml:24:5-28:19
+activity#either.com.mabeeemscanner.MainActivity
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:16:9-25:20
+	android:label
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:18:13-56
+	android:theme
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:17:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:23:27-74
+service#either.com.mabeeemscanner.BleService
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:27:9-29:38
+	android:enabled
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:29:13-35
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:28:13-39
+receiver#either.com.mabeeemscanner.BootReceiver
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:31:9-39:20
+	android:permission
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:33:13-75
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:32:13-41
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.DEFAULT
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:34:13-38:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:35:17-79
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:35:25-76
+category#android.intent.category.DEFAULT
+ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:37:17-76
+	android:name
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml:37:27-73
+uses-sdk
+INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5193e7ce9918af16a105af873693d67e/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5193e7ce9918af16a105af873693d67e/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/726af0588a3a4e9813c1232bcfcdabd4/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/726af0588a3a4e9813c1232bcfcdabd4/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c952252af4600c86a0f06c8b41b7ab51/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c952252af4600c86a0f06c8b41b7ab51/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/0cedab184cc2b7e478165a93048e9733/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/0cedab184cc2b7e478165a93048e9733/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f86a951084053aaf846b3b6a42d70961/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f86a951084053aaf846b3b6a42d70961/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/0242324be43c36787f73a263660204d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/0242324be43c36787f73a263660204d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4f829a9eb5c79eda9a858353299312f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4f829a9eb5c79eda9a858353299312f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/f3e744fce4c3feb86245a7a840c36315/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/f3e744fce4c3feb86245a7a840c36315/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/db6cd8f0c40c6ebf08d386df365442e6/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/db6cd8f0c40c6ebf08d386df365442e6/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/5979018e0259a1b2f286b234416a6fa1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/5979018e0259a1b2f286b234416a6fa1/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/386fe360bdb62d375fb7698741f09283/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/386fe360bdb62d375fb7698741f09283/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d8a1f81bbd40a2c52c18efd92f529593/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d8a1f81bbd40a2c52c18efd92f529593/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8e8d6ca62f2215a24fe52b2327dd5f48/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8e8d6ca62f2215a24fe52b2327dd5f48/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2411923879384b1056f55e660c574845/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2411923879384b1056f55e660c574845/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5193e7ce9918af16a105af873693d67e/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+		ADDED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/sagashou/AndroidStudioProjects/MabeeeMScannerRemocon/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5193e7ce9918af16a105af873693d67e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/726af0588a3a4e9813c1232bcfcdabd4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/726af0588a3a4e9813c1232bcfcdabd4/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/0cedab184cc2b7e478165a93048e9733/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/0cedab184cc2b7e478165a93048e9733/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f86a951084053aaf846b3b6a42d70961/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/f86a951084053aaf846b3b6a42d70961/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/0242324be43c36787f73a263660204d5/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/0242324be43c36787f73a263660204d5/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4f829a9eb5c79eda9a858353299312f2/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/4f829a9eb5c79eda9a858353299312f2/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/f3e744fce4c3feb86245a7a840c36315/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/f3e744fce4c3feb86245a7a840c36315/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/db6cd8f0c40c6ebf08d386df365442e6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/db6cd8f0c40c6ebf08d386df365442e6/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/5979018e0259a1b2f286b234416a6fa1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/5979018e0259a1b2f286b234416a6fa1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/386fe360bdb62d375fb7698741f09283/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/386fe360bdb62d375fb7698741f09283/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d8a1f81bbd40a2c52c18efd92f529593/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d8a1f81bbd40a2c52c18efd92f529593/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8e8d6ca62f2215a24fe52b2327dd5f48/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/8e8d6ca62f2215a24fe52b2327dd5f48/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5193e7ce9918af16a105af873693d67e/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/5193e7ce9918af16a105af873693d67e/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2411923879384b1056f55e660c574845/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2411923879384b1056f55e660c574845/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/sagashou/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/2411923879384b1056f55e660c574845/AndroidManifest.xml:26:13-58
